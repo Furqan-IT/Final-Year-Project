@@ -1,0 +1,23 @@
+.third{
+    height:20vh;
+    width:100%;
+    /* border:2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 33px;
+}
+.volunteer{
+    height:70%;
+    width:60%;
+    border:6px solid rgb(235, 120, 120);
+    padding-top: 10px;
+}
+
+
+.volunteer h3{
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 800;
+}
+

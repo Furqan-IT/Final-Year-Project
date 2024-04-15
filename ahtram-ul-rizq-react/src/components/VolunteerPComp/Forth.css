@@ -1,0 +1,75 @@
+
+.map {
+    width: 100%;
+    max-height: 400px;
+    margin: 0 auto 0 auto;
+    display: block;
+    /* border:2px solid black; */
+    background-color: #dae07e;
+    /* border-radius: 40px; */
+    
+  
+  }
+  *, *::before, *::after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+  }
+  user agent stylesheet
+  svg:not(:root) {
+    overflow-clip-margin: content-box;
+    overflow: hidden;
+  }
+  html body #regions-container .cms-page p, html body #regions-container .cms-page ul, html body #regions-container .cms-page li, html body #regions-container .cms-page ol, html body #regions-container .cms-page div, html body #regions-container .cms-page strong, html body #regions-container .cms-page b, html body #regions-container .cms-page blockquote, html body #regions-container .cms-page table, html body #regions-container .cms-page th, html body #regions-container .cms-page td, html body #regions-container .wysiwygblock p, html body #regions-container .wysiwygblock ul, html body #regions-container .wysiwygblock li, html body #regions-container .wysiwygblock ol, html body #regions-container .wysiwygblock div, html body #regions-container .wysiwygblock strong, html body #regions-container .wysiwygblock b, html body #regions-container .wysiwygblock blockquote, html body #regions-container .wysiwygblock table, html body #regions-container .wysiwygblock th, html body #regions-container .wysiwygblock td, html body #regions-container .formBlock .description-form-section p, html body #regions-container .formBlock .description-form-section ul, html body #regions-container .formBlock .description-form-section li, html body #regions-container .formBlock .description-form-section ol, html body #regions-container .formBlock .description-form-section div, html body #regions-container .formBlock .description-form-section strong, html body #regions-container .formBlock .description-form-section b, html body #regions-container .formBlock .description-form-section blockquote, html body #regions-container .formBlock .description-form-section table, html body #regions-container .formBlock .description-form-section th, html body #regions-container .formBlock .description-form-section td {
+    color: #dab6b6;
+    font-family: "Ubuntu Regular";
+    font-size: 18px;
+  }
+  
+  *, *::before, *::after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+  }
+ 
+  user agent stylesheet
+  :not(svg) {
+    transform-origin: 0px 0px;
+  }
+  .map-region {
+    fill: rgb(124, 186, 50);
+    transition: all 0.25s ease-in-out;
+    font-size: 0px;
+    text-anchor: middle;
+    stroke: rgb(50, 75, 20);
+    stroke-width: 0.75px;
+    stroke-miterlimit: 0;
+    stroke-dasharray: none;
+  
+  }
+  html body #regions-container .cms-page a, html body #regions-container .wysiwygblock a, html body #regions-container .formBlock .description-form-section a {
+    font-family: "Ubuntu Regular";
+    font-size: 18px;
+  }
+  /* html body:not(.partner-portal) a:not(.button) {
+    color: #7cba32;
+  } */
+  /* html body a {
+    color: #A4B000;
+  } */
+  /* a {
+    line-height: inherit;
+    color: #2199e8;
+    text-decoration: none;
+    cursor: pointer;
+  } */
+  user agent stylesheet
+  a:-webkit-any-link {
+    cursor: pointer;
+  }
+  html body #regions-container .cms-page p, html body #regions-container .cms-page ul, html body #regions-container .cms-page li, html body #regions-container .cms-page ol, html body #regions-container .cms-page div, html body #regions-container .cms-page strong, html body #regions-container .cms-page b, html body #regions-container .cms-page blockquote, html body #regions-container .cms-page table, html body #regions-container .cms-page th, html body #regions-container .cms-page td, html body #regions-container .wysiwygblock p, html body #regions-container .wysiwygblock ul, html body #regions-container .wysiwygblock li, html body #regions-container .wysiwygblock ol, html body #regions-container .wysiwygblock div, html body #regions-container .wysiwygblock strong, html body #regions-container .wysiwygblock b, html body #regions-container .wysiwygblock blockquote, html body #regions-container .wysiwygblock table, html body #regions-container .wysiwygblock th, html body #regions-container .wysiwygblock td, html body #regions-container .formBlock .description-form-section p, html body #regions-container .formBlock .description-form-section ul, html body #regions-container .formBlock .description-form-section li, html body #regions-container .formBlock .description-form-section ol, html body #regions-container .formBlock .description-form-section div, html body #regions-container .formBlock .description-form-section strong, html body #regions-container .formBlock .description-form-section b, html body #regions-container .formBlock .description-form-section blockquote, html body #regions-container .formBlock .description-form-section table, html body #regions-container .formBlock .description-form-section th, html body #regions-container .formBlock .description-form-section td {
+    color: #000;
+    font-family: "Ubuntu Regular";
+    font-size: 18px;
+  }
+  
+  
+  

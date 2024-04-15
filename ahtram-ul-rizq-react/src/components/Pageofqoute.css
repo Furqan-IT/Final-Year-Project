@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.html {
+  font-size: 62.5%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#page3::before{
+    content: "";
+    position:absolute;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    /* background: url('/frontimages/800w-BdZKZt5OaC4.webp'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  
+  
+  }
+  #page3 {
+    height: 100vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    overflow: hidden;
+   
+       box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5); 
+       border-top-left-radius: 20px;
+       border-bottom-right-radius: 20px;
+        border-top-right-radius: 20px; 
+     border-bottom-left-radius: 200px; 
+   
+  }
+  
+  #page3>p {
+    font-size: 49px;
+    font-family: 'Playball', cursive;
+    color: rgb(42, 192, 42);
+    font-weight: 400;
+    width: 70%;
+    line-height: 45px;
+    text-align: justify;
+  }
+  .sura{
+    font-size: 49px;
+    font-family: 'Playball', cursive;
+    color: green;
+    font-weight: 400;
+    width: 70%;
+    line-height: 45px;
+    text-align: justify;
+    text-decoration: underline;
+  }
+  .sura:hover{
+    color:grey;
+  }
+  
+  #page3 img {
+    position: absolute;
+    height: 60px;
+    filter: invert(50%);
+  }
+  
+  #page3 #colon1 {
+    left: 5%;
+    top: 15%;
+  }
+  
+  #page3 #colon2 {
+    bottom: 15%;
+    right: 5%;
+  }
+  
+  
+@media (max-width: 768px) {
+
+    #page3 {
+        margin-top: 30px;
+        /* border: 2px solid black; */
+        height: 60vh;
+        width: 100%;
+    
+        display: flex;
+        align-items: center;
+        position: relative;
+        justify-content: center;
+      }
+    
+      #page3>p {
+    
+        font-size: 24px;
+        font-weight: 300;
+        width: 70%;
+        line-height: 22px;
+        text-align: justify;
+        /* color:white; */
+      }
+    
+      #page3 img {
+        position: absolute;
+        height: 26px;
+      }
+    
+      #page3 #colon1 {
+        left: 6%;
+        top: 12%;
+      }
+    
+      #page3 #colon2 {
+        bottom: 12%;
+        right: 6%;
+      }
+    
+}  
+
+@media (min-width: 769px) and (max-width: 1200px) {
+
+  #page3 {
+    margin-top: 30px;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+  }
+
+  #page3>p {
+    font-size: 24px;
+    font-weight: 300;
+    width: 70%;
+    line-height: 22px;
+    text-align: justify;
+  }
+
+  #page3 img {
+    position: absolute;
+    height: 26px;
+  }
+
+  #page3 #colon1 {
+    left: 6%;
+    top: 12%;
+  }
+
+  #page3 #colon2 {
+    bottom: 12%;
+    right: 6%;
+  }
+}

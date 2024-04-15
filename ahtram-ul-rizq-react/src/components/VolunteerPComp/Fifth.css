@@ -1,0 +1,23 @@
+.fifth{
+    height:22vh;
+    width:100%;
+    border:2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 33px;
+}
+.volunteerr{
+    height:60%;
+    width:80%;
+    border:6px solid rgb(235, 120, 120);
+    /* padding-top: 18px; */
+}
+
+
+.volunteerr h3{
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 800;
+}
+

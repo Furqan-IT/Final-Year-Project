@@ -1,0 +1,142 @@
+.home::before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    height:80vh;
+    width:100%;
+   
+    background: url('./flat-world-humanitarian-day-background_23-2149456286.avif');
+    background-size: contain;
+    border-top-right-radius: 110px;
+    border-bottom-left-radius: 110px;
+ 
+}
+
+.home{
+    height:80vh;
+    width:100%;
+    margin-top: 49px;
+    position:relative;
+    background-color: rgba(0, 0, 0, 0.774);
+    border-top-right-radius: 110px;
+    border-bottom-left-radius: 110px;
+    box-shadow: 0px 10px 30px 5px rgba(0, 0, 0, 0.5);
+}
+
+.head{
+  
+    position:absolute;
+    right:40px;
+    top:120px;
+    border-top: 9px solid PINK; 
+    border-bottom: 9px solid pink;
+    border-left: 4px solid pink;
+    border-top-right-radius: 110px;
+    border-bottom-left-radius: 110px;
+  
+}
+.head h3{
+    font-size: 3rem;
+    font-weight: 600;
+    color:white;
+}
+.head p{
+    font-size: 25px;
+    color:rgb(181, 202, 123);
+    margin-top: 12px;
+    margin-bottom: 22px;
+   margin-left: 17px;
+
+}
+.head a{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #facb85;
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 17px;
+    padding:8px 12px;
+    margin-top: 22px;
+    color:rgb(70, 41, 41);
+    margin-right: 12px;
+ 
+   
+}
+.head a:hover{
+    
+    background-color: #1A1A1A;
+  color:green;
+}
+
+.social{
+    background-color: #facb85;
+    color:white;
+    display: inline-block   ;
+    position: absolute;
+    right:70px;
+    bottom:55px;
+    height:40px;
+    width:310px;
+    font-size: 28px;
+    color:rgb(15, 15, 49);
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+}
+
+.pic1{
+    height:220px;
+    width:220px;
+    /* border:2px solid black; */
+    border-radius: 360px;
+    position: absolute;
+    top:70px;
+    left:80px;
+    /* background: url('/donate/1870709e546b2bbaf31114a6886d3f0c.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 3;
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    color:#fac881;
+    /* padding-top:30px; */
+    /* text-decoration: underline; */  
+}
+.pic1 a{
+    text-decoration: none;
+    color:#facb85;
+    font-size: 15px;
+    /* border:3px solid white; */
+}
+.pic1 a:hover{
+    text-decoration: underline;
+    color:#d09844;
+   
+}
+
+
+.pic2{
+    height:160px;
+    width:160px;
+    /* border:2px solid black; */
+    border-radius: 360px;
+    position: absolute;
+    top:120px;
+    left:230px;
+    /* background: url('/donate/bd49db0e37fa07302b4a6dcbfd480660.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+}
+.pic3{
+    height:120px;
+    width:120px;
+    /* border:2px solid black; */
+    border-radius: 360px;
+    position: absolute;
+    top:240px;
+    left:210px;
+    /* background: url('/donate/9b0d9a2fa3802080fdfa48850f3307aa.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 4;
+  box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.html {
+  font-size: 62.5%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.firstvolun{
+
+    height:65vh;
+    width:100%;
+    /* border:9px solid rgb(0, 0, 0); */
+    margin:12px 0px;
+    /* position:relative; */
+    display: flex;
+    
+  
+  }
+  .firstv1{
+    height:100%;
+    width:45%;
+    display: flex;
+    flex-direction: column;
+    /* border:6px solid rgb(214, 10, 10); */
+    margin-right: 22px;
+    margin-left: 22px;
+    border-radius: 30px;
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    
+  }
+  .firstv1 h1{
+    font-size: 2.3rem;
+    border-bottom: 9px solid pink;
+    text-align: center;
+    color:rgb(75, 210, 131);
+    font-family: 'Playball', cursive;
+  }
+  .firstv1 h3{
+    margin-top: 20px;
+    font-size: 1.7rem;
+    /* border:2px solid black; */
+    text-align: center;
+    /* padding:0px 29px; */
+    line-height: 50px;
+    color: #666;
+    font-weight: 500;
+    margin-top: 12px;
+    
+  }
+  .ac{
+    /* border:4px solid yellow; */
+    background-color: #facb85;
+  height:103px;
+    margin-top: 44px;
+    position: relative;
+    font-family: 'Playball', cursive;
+  
+  
+  }
+  .ac a{
+     display: block;
+     width:70%;
+     height:40px;
+     margin:auto;
+     /* margin:auto; */
+    text-decoration: none;
+    /* padding-top: 33px; */
+    font-size: 22px;
+    /* border:2px solid black; */
+    color:white;
+  text-align: center;
+    margin-top: 28px;
+    font-weight: 600;
+    padding-top: 8px;
+    box-shadow: 11px 11px 12px -3px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 11px 11px 12px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 11px 11px 12px -3px rgba(0,0,0,0.75);
+  background-color: rgba(165, 148, 52, 0.938);
+    
+  }
+  .ac a:hover{
+    background-color: #0e0808;
+    color:green;
+  }
+  
+  
+  .firstv2{
+    height:100%;
+    width:50%;
+    /* position:absolute; */
+    border:6px solid rgb(70, 153, 14);
+    justify-content: flex-end;
+    background: url(./2.jpg);
+    /* filter:brightness(80%); */
+    background-position: center;
+    background-size: cover;
+    border-top: 9px solid PINK; 
+  border-bottom: 9px solid PINK;
+   border-right: 4px solid pink;
+   border-left: 4px solid pink;
+  /* border-top-right-radius: 120px;
+  border-bottom-left-radius: 110px;  */
+  
+  }
+  
